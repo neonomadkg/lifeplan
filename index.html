@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifePlan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">LifePlan</div>
+            <nav class="main-nav">
+                <a href="#categories">Категории</a>
+                <a href="#tools">Инструменты</a>
+                <a href="#instructions">Инструкции</a>
+            </nav>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                <!-- Удален Twitter -->
+            </div>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="intro-content">
+            <h1>Организуй свою жизнь</h1>
+            <video src="intro-video.mp4" controls></video>
+            <p>Эффективно планируй и достигай целей</p>
+            <div class="button-group">
+                <button class="buy-button">Купить</button>
+                <button class="details-button">Подробнее</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="overview">
+        <div class="overview-content">
+            <div class="left">
+                <h2>Комплект планировщиков и трекеров</h2>
+            </div>
+            <div class="center">
+                <a href="#offer">Что мы предлагаем</a>
+                <a href="#target-audience">Для кого</a>
+                <a href="#pricing">Цены</a>
+                <a href="#register">Регистрация/Авторизация</a>
+            </div>
+            <div class="right">
+                <button class="buy-now-button">Купить</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Обучение</h2>
+        <div class="education-content">
+            <div class="left">
+                <p>Текстовые и видео-инструкции для успешного использования нашего продукта.</p>
+            </div>
+            <div class="right">
+                <img src="education-image.jpg" alt="Обучение">
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="categories">
+        <h2>Категории</h2>
+        <div class="category-blocks">
+            <div class="category-block">
+                <img src="icon1.png" alt="Category 1">
+                <h3>Категория 1</h3>
+                <p>Описание категории 1.</p>
+            </div>
+            <div class="category-block">
+                <img src="icon2.png" alt="Category 2">
+                <h3>Категория 2</h3>
+                <p>Описание категории 2.</p>
+            </div>
+            <div class="category-block">
+                <img src="icon3.png" alt="Category 3">
+                <h3>Категория 3</h3>
+                <p>Описание категории 3.</p>
+            </div>
+            <div class="category-block">
+                <img src="icon4.png" alt="Category 4">
+                <h3>Категория 4</h3>
+                <p>Описание категории 4.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="target-audience" class="clients">
+        <h2>Кто наши клиенты</h2>
+        <div class="carousel">
+            <button class="carousel-control prev">‹</button>
+            <div class="carousel-inner">
+                <div class="carousel-slide">
+                    <video src="client1.mp4" controls></video>
+                    <p>Описание клиента 1</p>
+                </div>
+                <div class="carousel-slide">
+                    <video src="client2.mp4" controls></video>
+                    <p>Описание клиента 2</p>
+                </div>
+                <div class="carousel-slide">
+                    <video src="client3.mp4" controls></video>
+                    <p>Описание клиента 3</p>
+                </div>
+            </div>
+            <button class="carousel-control next">›</button>
+        </div>
+    </section>
+
+    <section id="tools" class="tools">
+        <h2>Инструменты</h2>
+        <p>Краткое описание инструментов и их назначения.</p>
+    </section>
+
+    <section class="video-gallery">
+        <h2>Видео Галерея</h2>
+        <div class="video-grid">
+            <div class="video-item">
+                <video src="video1.mp4" controls></video>
+            </div>
+            <div class="video-item">
+                <video src="video2.mp4" controls></video>
+            </div>
+            <div class="video-item">
+                <video src="video3.mp4" controls></video>
+            </div>
+            <div class="video-item">
+                <video src="video4.mp4" controls></video>
+            </div>
+        </div>
+        <div class="video-grid">
+            <div class="video-item">
+                <video src="video5.mp4" controls></video>
+            </div>
+            <div class="video-item">
+                <video src="video6.mp4" controls></video>
+            </div>
+            <div class="video-item">
+                <video src="video7.mp4" controls></video>
+            </div>
+            <div class="video-item">
+                <video src="video8.mp4" controls></video>
+            </div>
+        </div>
+    </section>
+
+    <section class="promotion">
+        <div class="promotion-content">
+            <span class="original-price">$100</span>
+            <span class="discounted-price">$10</span>
+            <div id="countdown" data-end-date="2024-12-31T23:59:59"></div>
+            <button class="buy-now-button">Купить сейчас</button>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>Отзывы</h2>
+        <div class="reviews-carousel">
+            <div class="review-text">
+                <p>Отзыв 1: Отличный продукт! Рекомендую всем.</p>
+            </div>
+            <div class="review-text">
+                <p>Отзыв 2: Очень полезный инструмент для планирования.</p>
+            </div>
+            <div class="review-text">
+                <p>Отзыв 3: Помог организовать работу и личную жизнь.</p>
+            </div>
+        </div>
+        <div class="video-reviews-carousel">
+            <video src="review-video1.mp4" controls></video>
+            <video src="review-video2.mp4" controls></video>
+            <video src="review-video3.mp4" controls></video>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 LifePlan. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
